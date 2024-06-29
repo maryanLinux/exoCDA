@@ -1,0 +1,38 @@
+
+.container-fluid{
+    background-color: black !important;
+}
+
+.navbar-collapse a{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+footer {
+    background-color: black !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#logo{
+object-fit: contain;
+width: 90px;
+height: 90px;
+
+body {
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+#gradient {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}

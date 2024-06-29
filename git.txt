@@ -1,0 +1,19 @@
+git remote -v ( affiche la liste des remotes) être dans le bon dossier ou git remote add origin (urlgitrepo)
+git blame (nomfichier) demande d'info pour le Master ^430c752 (maryanLinux 2024-06-26 23:22:06 +0200  8) $start->index();
+(^) defini celui a créer le fichier
+git blame -L 10,20 ( affiche le fichier de la ligne 10 a 20)
+
+ERROR
+
+git push => fatal: The current branch (votrebranch) has no upstream ...
+explik => essaie de push modif dans votre branch alors que cette branche est en local n'est pas ds le repot distant
+cmd => git push --setupstream origin (votrebranche) => il fait le lien entre branche local et distant
+
+git checkout (branch) => error: pathspec 'dev' did not match any file(s) known to git
+explik => pas de branch créer ds le bon dossier
+cmd => git branch (votrebranch)
+
+git push => remote: Permission to (repo.git) denied to xxxxxxx.
+explik => un genre d'admin est propriétaire le window du pc
+response => ds window tapez "Windows Credential Store" (voir img wcs.png) fenetre Credential Store doit s'ouvrir mettez vous en proprio
+dans git recommencer git config --global mail et --global user
