@@ -3,7 +3,14 @@ git blame (nomfichier) demande d'info pour le Master ^430c752 (maryanLinux 2024-
 (^) defini celui a créer le fichier
 git blame -L 10,20 ( affiche le fichier de la ligne 10 a 20)
 
+// Retirer un ficher aprés un git add
+git restore --staged fichier
+
+
 ERROR
+
+git add fichier => no visible avec git status 
+cmd => git add -f 
 
 git push => fatal: The current branch (votrebranch) has no upstream ...
 explik => essaie de push modif dans votre branch alors que cette branche est en local n'est pas ds le repot distant
